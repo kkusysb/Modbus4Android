@@ -20,11 +20,11 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:25.2.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:25.2.0'
     //    compile files('libs/commons-lang3-3.1.jar')
     //    compile files('libs/commons-logging-1.2.jar')
     //compile files('libs/modbus4Android-1.0.jar')
-    compile files('libs/modbus4Android-1.2.jar')
+    implementation files('libs/modbus4Android-1.2.jar')
 }
